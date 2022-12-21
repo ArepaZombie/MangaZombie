@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/MangaZombie-/static/css/main.4d8656a7.css",
+    "main.js": "/MangaZombie-/static/js/main.b1288db8.js",
+    "static/media/csm-hero.jpg": "/MangaZombie-/static/media/csm-hero.561c4a37891294796f76.jpg",
+    "static/media/fma_hero.jpg": "/MangaZombie-/static/media/fma_hero.ebbef7cee38859bdddae.jpg",
+    "static/media/op_98.webp": "/MangaZombie-/static/media/op_98.d2b770b16f192a8f4b3b.webp",
+    "static/media/lover.jpg": "/MangaZombie-/static/media/lover.c2d98e6ffea7909fbc26.jpg",
+    "static/media/seven.webp": "/MangaZombie-/static/media/seven.ba8994ef346a3357de00.webp",
+    "static/media/op_99.webp": "/MangaZombie-/static/media/op_99.92a8bdd948f376f6c6fc.webp",
+    "static/media/op_hero.webp": "/MangaZombie-/static/media/op_hero.ede9b45169e527c608fb.webp",
+    "static/media/jjk_19.webp": "/MangaZombie-/static/media/jjk_19.043f9e7544e88b2f0ab4.webp",
+    "static/media/op_100.webp": "/MangaZombie-/static/media/op_100.2d53fa4a4fb3681145d0.webp",
+    "static/media/fma.jpeg": "/MangaZombie-/static/media/fma.f633354d8ad5cec264e5.jpeg",
+    "static/media/jjk_18.webp": "/MangaZombie-/static/media/jjk_18.339ebdb9b74cd0240e47.webp",
+    "static/media/csm.webp": "/MangaZombie-/static/media/csm.2d02f6e95505fa91f061.webp",
+    "static/media/jjk_20.webp": "/MangaZombie-/static/media/jjk_20.0637e7dfad1525157efc.webp",
+    "static/media/csm12.webp": "/MangaZombie-/static/media/csm12.1016106f010884adff8e.webp",
+    "static/media/ao_horu.webp": "/MangaZombie-/static/media/ao_horu.8874a208fa1ebcffba75.webp",
+    "static/media/berserk.webp": "/MangaZombie-/static/media/berserk.94f25182bc2da654daf1.webp",
+    "static/media/opm_26.webp": "/MangaZombie-/static/media/opm_26.31c9023b0083e96f2f5b.webp",
+    "static/media/opm_25.webp": "/MangaZombie-/static/media/opm_25.9dfe535a49e75d8775aa.webp",
+    "static/media/bl_02.webp": "/MangaZombie-/static/media/bl_02.dda3ed98088bd2e74a64.webp",
+    "static/media/vinland.webp": "/MangaZombie-/static/media/vinland.c231fe1c707c8cca44cb.webp",
+    "static/media/bl_03.webp": "/MangaZombie-/static/media/bl_03.6303d908f284ae7b5200.webp",
+    "static/media/bl_01.webp": "/MangaZombie-/static/media/bl_01.0894f5c81525ecb07fd4.webp",
+    "static/media/fruits.webp": "/MangaZombie-/static/media/fruits.508a5d2df24bb1d079d2.webp",
+    "static/media/punpun.webp": "/MangaZombie-/static/media/punpun.c1ea181185050fbc73cc.webp",
+    "index.html": "/MangaZombie-/index.html",
+    "main.4d8656a7.css.map": "/MangaZombie-/static/css/main.4d8656a7.css.map",
+    "main.b1288db8.js.map": "/MangaZombie-/static/js/main.b1288db8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d8656a7.css",
+    "static/js/main.b1288db8.js"
+  ]
+}
