@@ -2,7 +2,7 @@
   "name": "zombie-manga",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://arepazombie.github.io/MangaZombie-/",
+  "homepage": "https://arepazombie.github.io/MangaZombie/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -20,6 +20,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "gh-pages -d build": {
+    "password": "arepa"
   },
   "eslintConfig": {
     "extends": [
