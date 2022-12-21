@@ -8,7 +8,7 @@ function MangaMiniBox({manganame,openinfo}){
   const manga = info[manganame];
   
   const showInfo = (e) =>{
-    if(e.target.className == 'manga-img'){
+    if(e.target.className === 'manga-img'){
     
     const arrManga = Array.from(document.getElementsByClassName('manga-cover'))
     for (let i=0;i<arrManga.length;i++) {
@@ -25,7 +25,7 @@ function MangaMiniBox({manganame,openinfo}){
   }
   
   const hideInfo = (e) =>{
-    if(e.target.className == 'manga-img'){
+    if(e.target.className === 'manga-img'){
     e.target.style.filter = 'blur(0px)'
     e.target.nextElementSibling.style.display = 'none'
     e.target.nextElementSibling.style.opacity = '0'
@@ -68,7 +68,7 @@ function Exhibicion(props){
     <section className='exhibicion' id={props.tipo}>
       <h2>{props.tipo.toUpperCase()}</h2>
       <div className='manga-container'>
-        {props.tipo == 'estrenos'? estrenos:terminados}
+        {props.tipo === 'estrenos'? estrenos:terminados}
       </div>
       {subwin && <Ventana info={<MangaBox manganame={mangaInfo}/>} closeInfo={()=>setSubwin(false)}/>}
     </section>

@@ -4,7 +4,7 @@
   --rosa: #C12362;
   --azul: #01303E;
   --verde-2: #05F087;
-  font-size: 10px;
+  font-size: 1vw;
 }
 
 *{
@@ -117,7 +117,7 @@ section{
 }
 
 .manga-titulo{
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .manga-img:hover{
@@ -334,8 +334,18 @@ footer{
   text-align: center;
 }
 
-footer p{
+footer a, footer p{
   font-size: 2rem;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: all 0.5s;
+}
+
+footer a:hover{
+  font-weight: bolder;
+  text-shadow: black 1px 1px ;
+  font-size: 3rem;
 }
 
 
@@ -343,8 +353,7 @@ footer p{
 #carrito-boton{
   color: white;
   background-color: var(--verde);
-  font-size: 5rem;
-  display: block;
+
   position: fixed;
   padding: 10px 20px;
   border-radius: 50%;
@@ -352,6 +361,11 @@ footer p{
   bottom: 5px;
   cursor: pointer;
   transition: all 0.5s;
+}
+
+
+#carrito-boton img{
+  width: 5rem;
 }
 
 #carrito-boton:hover{

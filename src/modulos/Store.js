@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from "react";
+import React, { useState } from "react";
 import info from "../info";
 
 //Modulos
@@ -33,7 +33,7 @@ function Store({sesion}){
   const [showCarrito, setShowCarrito] = useState(false);
 
   const agregarCarrito = (e) => {
-    if(e.target.className == "btn btn-carrito"){
+    if(e.target.className === "btn btn-carrito"){
       const manga = e.target.attributes.manganame.value
       const carr_aux = carrito.slice()
       carr_aux.push(manga)
@@ -50,7 +50,7 @@ function Store({sesion}){
       indx = parseInt(e.target.parentNode.attributes.pos.value)
     }
     
-    setCarrito(carrito.filter((x,i)=>i!=indx))
+    setCarrito(carrito.filter((x,i)=>i!==indx))
   }
 
   const leerCarro = (e)=>{

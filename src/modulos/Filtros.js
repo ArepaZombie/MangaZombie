@@ -17,13 +17,13 @@ function Filtros(){
 })
 
   const openSubwin = (e) =>{
-    if(e.target.className=="categoria"){
+    if(e.target.className==="categoria"){
     const finded = [];
     const str = e.target.id
 
-    if(str=="tomo"||str=="serie"){
+    if(str==="tomo"||str==="serie"){
       for (let manga in info){
-        if(info[manga].tipo == str){
+        if(info[manga].tipo === str){
           finded.push(manga)
       }
     }
@@ -31,7 +31,7 @@ function Filtros(){
   
     else{
       for (let manga in info){
-        if(info[manga].demo == str){
+        if(info[manga].demo === str){
           finded.push(manga)
       }
     }
