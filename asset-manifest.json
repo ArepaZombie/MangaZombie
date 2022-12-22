@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MangaZombie/static/css/main.4d8656a7.css",
-    "main.js": "/MangaZombie/static/js/main.e9ce2128.js",
+    "main.css": "/MangaZombie/static/css/main.8906da5c.css",
+    "main.js": "/MangaZombie/static/js/main.81c903c2.js",
     "static/media/csm-hero.jpg": "/MangaZombie/static/media/csm-hero.561c4a37891294796f76.jpg",
     "static/media/fma_hero.jpg": "/MangaZombie/static/media/fma_hero.ebbef7cee38859bdddae.jpg",
     "static/media/op_98.webp": "/MangaZombie/static/media/op_98.d2b770b16f192a8f4b3b.webp",
@@ -27,11 +27,11 @@
     "static/media/fruits.webp": "/MangaZombie/static/media/fruits.508a5d2df24bb1d079d2.webp",
     "static/media/punpun.webp": "/MangaZombie/static/media/punpun.c1ea181185050fbc73cc.webp",
     "index.html": "/MangaZombie/index.html",
-    "main.4d8656a7.css.map": "/MangaZombie/static/css/main.4d8656a7.css.map",
-    "main.e9ce2128.js.map": "/MangaZombie/static/js/main.e9ce2128.js.map"
+    "main.8906da5c.css.map": "/MangaZombie/static/css/main.8906da5c.css.map",
+    "main.81c903c2.js.map": "/MangaZombie/static/js/main.81c903c2.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d8656a7.css",
-    "static/js/main.e9ce2128.js"
+    "static/css/main.8906da5c.css",
+    "static/js/main.81c903c2.js"
   ]
 }
