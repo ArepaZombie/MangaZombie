@@ -45,7 +45,7 @@ header{
 header p{
   color: var(--amarillo);
   font-weight: 800;
-  font-size: 2rem;
+  font-size: clamp(15px,2rem,2rem);
   margin: 10px;
 }
 
@@ -61,7 +61,7 @@ header p{
 }
 
 h2{
-  font-size: 3rem;
+  font-size: clamp(25px,3rem,3rem);
   margin-bottom: 30px;
 }
 
@@ -126,7 +126,7 @@ section{
 }
 
 .price{
-  font-size: 10rem;
+  font-size: clamp(10px,10rem,10rem);
   margin: 0;
   background-color: var(--rosa);
   padding: 10px;
@@ -138,8 +138,11 @@ section{
   background-color: var(--verde-2);
   color: black;
   margin: 5px;
-  font-size: 2rem;
+  font-size: clamp(5px,2rem,2rem);
   font-family: 'JetBrains Mono', monospace;
+  display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .btn-carrito:hover,.btn-compra:hover, input[type=submit]:hover{
@@ -280,8 +283,18 @@ section{
   padding-bottom: 20px;
 }
 
+.producto-info h2{
+  margin: 10px 0;
+}
+
 .producto-info p{
-  margin-bottom: 1rem;
+  margin-bottom: 10px;
+}
+
+.manga-sinopsis{
+  text-overflow: ellipsis;
+  overflow: hidden;
+  height: 30%;
 }
 
 .producto-info img{
@@ -407,3 +420,43 @@ input[type=submit]{
   align-items: center;
 }
 
+@media only screen and (max-width: 600px) {
+  .btn{
+    font-size: 1.5rem;
+  }
+  .price{
+    font-size: 8rem;
+    margin: 0;
+  }
+
+  header .btn{
+    font-size: 3.5rem!important;
+  }
+  header{
+    padding-top: 5px;
+  }
+  section{
+    padding: 30px 0;
+  }
+
+  /*DENTRO DE LA VENTANA*/
+  .producto-info h2{
+    font-size: 15px;
+    margin: 0;
+  }
+  #close{
+    font-size: 10px;
+    width: 20px;
+  }
+
+  .producto-info p{
+    margin-bottom: 5px;
+  }
+  .categoria{
+    padding: 20px auto;
+    font-size: 20px;
+  }
+  footer a{
+    font-size: 20px;
+  }
+}
